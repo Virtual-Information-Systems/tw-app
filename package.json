@@ -20,6 +20,8 @@
   },
   "scripts": {
     "build:tailwind": "npx tailwindcss -i ./src/index.css -o ./src/tailwind.css --watch",
+    "prestartXX": "npm run build:tailwind",
+    "prebuild": "npm run build:tailwind",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

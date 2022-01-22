@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .button {
+    @apply btn btn-info btn-xs md:btn-sm lg:btn-sm xl:btn-md;
+  }
+}
